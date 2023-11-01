@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_student_lists",
+  "info": {
+    "displayName": "student-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "student": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
